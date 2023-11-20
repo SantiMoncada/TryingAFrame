@@ -1,0 +1,19 @@
+{
+  "name": "tryingaframe",
+  "version": "1.0.0",
+  "description": "Making a test bundle for AFrame",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiMoncada/TryingAFrame.git"
+  },
+  "author": "Santiago Moncada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiMoncada/TryingAFrame/issues"
+  },
+  "homepage": "https://github.com/SantiMoncada/TryingAFrame#readme"
+}
