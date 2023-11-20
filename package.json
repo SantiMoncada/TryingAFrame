@@ -1,19 +1,20 @@
 {
   "name": "tryingaframe",
-  "version": "1.0.0",
-  "description": "Making a test bundle for AFrame",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SantiMoncada/TryingAFrame.git"
   },
-  "author": "Santiago Moncada",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SantiMoncada/TryingAFrame/issues"
-  },
-  "homepage": "https://github.com/SantiMoncada/TryingAFrame#readme"
+  "author": "Santiago Moncada"
 }
